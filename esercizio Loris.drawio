@@ -1,0 +1,185 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.6">
+  <diagram name="Page-1" id="5d7acffa-a066-3a61-03fe-96351882024d">
+    <mxGraphModel dx="1509" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FB9rYUD1aRVaFU3ku3nc-18" target="FB9rYUD1aRVaFU3ku3nc-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="60" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21ea969265ad0168-6" value="DIPARTIMENTI" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
+          <mxGeometry x="560" y="80" width="160" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-18" value="ID&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;INT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="21ea969265ad0168-6">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-19" value="Name&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;VARCHAR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="21ea969265ad0168-6">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-20" value="Ateneo&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;VARCHAR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="21ea969265ad0168-6">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-1" value="CORSI DI LAUREA" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="240" y="80" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-24" value="ID Dipartimento&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;INT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FB9rYUD1aRVaFU3ku3nc-1">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-21" value="ID&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;INT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FB9rYUD1aRVaFU3ku3nc-1">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-22" value="Name&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;VARCHAR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FB9rYUD1aRVaFU3ku3nc-1">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-23" value="Durata&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;VARCHAR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FB9rYUD1aRVaFU3ku3nc-1">
+          <mxGeometry y="116" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-3" value="CORSI" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="40" y="350" width="160" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-34" value="ID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; INT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FB9rYUD1aRVaFU3ku3nc-3">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-36" value="Nome&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;VARCHAR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FB9rYUD1aRVaFU3ku3nc-3">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-37" value="CFU&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;TINYINT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FB9rYUD1aRVaFU3ku3nc-3">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-7" value="INSEGNANTI" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="200" y="590" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-44" value="ID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;INT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FB9rYUD1aRVaFU3ku3nc-7">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-49" value="Nome&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;VARCHAR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FB9rYUD1aRVaFU3ku3nc-7">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-50" value="Cognome&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;VARCHAR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FB9rYUD1aRVaFU3ku3nc-7">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-51" value="Cattedra&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;VARCHAR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FB9rYUD1aRVaFU3ku3nc-7">
+          <mxGeometry y="116" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-9" value="APPELLI D&#39;ESAME" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="20" y="590" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-46" value="ID Corso&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;INT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FB9rYUD1aRVaFU3ku3nc-9">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-54" value="ID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;INT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FB9rYUD1aRVaFU3ku3nc-9">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-55" value="Aula&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;VARCHAR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FB9rYUD1aRVaFU3ku3nc-9">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-61" value="Data&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;DATE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FB9rYUD1aRVaFU3ku3nc-9">
+          <mxGeometry y="116" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-11" value="STUDENTE" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="560" y="260" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-27" value="ID Corso di Laurea&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;INT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FB9rYUD1aRVaFU3ku3nc-11">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-68" value="ID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;INT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FB9rYUD1aRVaFU3ku3nc-11">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-62" value="Nome&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;VARCHAR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FB9rYUD1aRVaFU3ku3nc-11">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-63" value="Cognome&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;VARCHAR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FB9rYUD1aRVaFU3ku3nc-11">
+          <mxGeometry y="116" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FB9rYUD1aRVaFU3ku3nc-27" target="FB9rYUD1aRVaFU3ku3nc-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-29" value="PONTE CORSI" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="40" y="210" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-30" value="ID Corso&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; INT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FB9rYUD1aRVaFU3ku3nc-29">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-31" value="ID Corso di Laurea&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;INT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FB9rYUD1aRVaFU3ku3nc-29">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FB9rYUD1aRVaFU3ku3nc-21" target="FB9rYUD1aRVaFU3ku3nc-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FB9rYUD1aRVaFU3ku3nc-34" target="FB9rYUD1aRVaFU3ku3nc-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="390" />
+              <mxPoint x="220" y="251" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-38" value="PONTE INSEGNANTI" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="250" y="400" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-39" value="ID Corso&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;INT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FB9rYUD1aRVaFU3ku3nc-38">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-42" value="ID Insegnante&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;INT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FB9rYUD1aRVaFU3ku3nc-38">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FB9rYUD1aRVaFU3ku3nc-34" target="FB9rYUD1aRVaFU3ku3nc-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="391" />
+              <mxPoint x="220" y="441" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FB9rYUD1aRVaFU3ku3nc-44" target="FB9rYUD1aRVaFU3ku3nc-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FB9rYUD1aRVaFU3ku3nc-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="400" as="sourcePoint" />
+            <mxPoint x="20" y="625" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="10" y="390" />
+              <mxPoint x="10" y="630" />
+              <mxPoint x="20" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-69" value="PONTE INSEGNANTI" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="560" y="550" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-70" value="ID Studente&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;INT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FB9rYUD1aRVaFU3ku3nc-69">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-71" value="ID Appello&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;INT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FB9rYUD1aRVaFU3ku3nc-69">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-75" value="Voto&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;TINYINT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FB9rYUD1aRVaFU3ku3nc-69">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FB9rYUD1aRVaFU3ku3nc-68" target="FB9rYUD1aRVaFU3ku3nc-70">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="331" />
+              <mxPoint x="740" y="591" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FB9rYUD1aRVaFU3ku3nc-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FB9rYUD1aRVaFU3ku3nc-54" target="FB9rYUD1aRVaFU3ku3nc-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="680" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="10" y="661" />
+              <mxPoint x="10" y="790" />
+              <mxPoint x="400" y="790" />
+              <mxPoint x="400" y="620" />
+              <mxPoint x="560" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
