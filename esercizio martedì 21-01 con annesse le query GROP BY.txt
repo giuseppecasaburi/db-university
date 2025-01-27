@@ -1,0 +1,113 @@
+Query martedi 21-01
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1. Selezionare tutti gli studenti iscritti al Corso di Laurea in Economia ✅
+
+select * 
+from students
+where degree_id = 53
+
+OPPURE
+
+SELECT students.* 
+FROM students
+JOIN degrees ON students.degree_id = degrees.id
+WHERE degrees.name = 'Corso di laurea in Economia';
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2. Selezionare tutti i Corsi di Laurea Magistrale del Dipartimento di Neuroscienze ✅
+
+select * 
+from degrees
+join departments on degrees.department_id = departments.id
+where degrees.name like "Corso di Laurea Magistrale %"
+and department_id = 7
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3. Selezionare tutti i corsi in cui insegna Fulvio Amato (id=44) ✅
+
+SELECT course_teacher.*, courses.* 
+FROM course_teacher
+JOIN courses ON course_teacher.course_id = courses.id
+WHERE course_teacher.teacher_id = 44;
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4. Selezionare tutti gli studenti con i dati relativi al corso di laurea a cui sono iscritti e il relativo dipartimento, in ordine alfabetico per cognome e nome ✅
+
+SELECT students.id, students.name AS student_name, students.surname, degrees.name AS degree_name, departments.name AS department_name
+FROM students
+JOIN degrees ON students.degree_id = degrees.id
+JOIN departments ON degrees.department_id = departments.id
+ORDER BY students.surname, students.name;
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+5. Selezionare tutti i corsi di laurea con i relativi corsi e insegnanti ✅
+
+select degrees.id as d_id, 
+	degrees.department_id, 
+	degrees.name as d_name, 
+	courses.id as c_id, 
+	courses.degree_id, 
+	courses.name as c_name, 
+	courses.description, 
+	course_teacher.*, 
+	teachers.id, 
+	teachers.name, 
+	teachers.surname
+from degrees
+join courses on courses.degree_id = degrees.id
+join course_teacher on course_teacher.course_id = courses.id
+join teachers on course_teacher.teacher_id = teachers.id;
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+6. Selezionare tutti i docenti che insegnano nel Dipartimento di Matematica (54) ✅
+
+SELECT teachers.id, teachers.name, teachers.surname
+FROM departments
+JOIN degrees ON degrees.department_id = departments.id
+JOIN courses ON courses.degree_id = degrees.id
+JOIN course_teacher ON course_teacher.course_id = courses.id
+JOIN teachers ON course_teacher.teacher_id = teachers.id
+WHERE departments.name LIKE '%Matematica%';
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Query bonus
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+7. Selezionare per ogni studente quanti tentativi d’esame ha sostenuto per superare ciascuno dei suoi esami
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Query GROUP BY bonus di lunedi 20-01
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1. Contare quanti iscritti ci sono stati ogni anno. ✅
+
+SELECT YEAR(enrolment_date) AS year, COUNT(*) AS total_students
+FROM students
+GROUP BY YEAR(enrolment_date)
+ORDER BY year ASC;
+
+----------------------------------------------------------------------------------------------------------
+2. Contare gli insegnanti che hanno l'ufficio nello stesso edificio ✅
+
+SELECT office_address, COUNT(*) AS total_teachers
+FROM teachers
+GROUP BY office_address
+ORDER BY total_teachers DESC;
+
+-------------------------------------------------------------------------------------------------------
+3. Calcolare la media dei voti di ogni appello d'esame ✅
+
+SELECT exams.id, exams.date, ROUND(AVG(exam_student.vote), 2) AS average_grade
+FROM exams
+JOIN exam_student ON exam_student.exam_id = exams.id
+GROUP BY exams.id
+
+-------------------------------------------------------------------------------------------------------
+4. Contare quanti corsi di laurea ci sono per ogni dipartimento ✅
+
+SELECT departments.name AS department_name, COUNT(degrees.id) AS degree_count
+FROM departments
+JOIN degrees ON degrees.department_id = departments.id
+GROUP BY departments.id;
+
+-------------------------------------------------------------------------------------------------------
